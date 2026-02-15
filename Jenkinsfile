@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Command') {
             steps {
-                sh 'echo Learning Jenkins is fun!'
+                bat 'echo Learning Jenkins is fun!'
             }
         }
     }
